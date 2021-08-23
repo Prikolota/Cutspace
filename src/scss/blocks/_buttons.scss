@@ -1,0 +1,17 @@
+.button {
+  padding-left: 39px;
+  padding-right: 39px;
+  height: 58px;
+  background-color: $accentColor;
+  border-radius: 29px;
+
+  color: $white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 58px;
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: $accentColorHover;
+  }
+}

@@ -1,0 +1,10 @@
+.title-2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+
+  &--white {
+      color: $white;
+  }
+}
