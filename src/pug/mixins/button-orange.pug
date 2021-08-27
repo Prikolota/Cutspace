@@ -1,2 +1,5 @@
-mixin button-orange(text)
-    button.button #{text}
+mixin button-orange(text, buttonClass, link="#!")
+    if buttonClass
+        button.button(class=""+buttonClass) #{text}
+    else 
+        button.button #{text}
