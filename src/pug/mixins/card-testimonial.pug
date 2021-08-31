@@ -1,0 +1,10 @@
+mixin card-testimonial(img, comment, name, city)
+     a(href="#").card-testimonial
+        .card-testimonial__img-wrapper
+            button.card-testimonial__button-play
+                +btn-play
+            img(src="./img/testimonials/" + img, alt="").card-testimonial__img
+        .card-testimonial__body
+            p #{comment}
+            p.card-testimonial__name #{name}
+            p.card-testimonial__city #{city}
